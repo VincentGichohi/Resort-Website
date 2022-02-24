@@ -1,0 +1,40 @@
+.container {
+    position: absolute;
+    text-align: center;
+    color: #232C25;
+    bottom: 50px;
+    left: 100px;
+    top: 50px;
+    /* border-style:solid; */
+    /* border-color:red; */
+}
+
+img {
+    width: 1300px;
+    height: 1000px;
+    object-fit: cover;
+}
+
+.button {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   } 
